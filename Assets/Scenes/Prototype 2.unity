@@ -237,6 +237,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 10
+  projectilePrefab: {fileID: 1228470675}
 --- !u!1001 &298652857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -838,6 +839,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
+--- !u!1 &1228470675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5211478611193151987, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
+  m_PrefabInstance: {fileID: 5211478609999312992}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,6 +934,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5211478610637082378, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
+      propertyPath: speed
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5211478611192798675, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
       propertyPath: m_RootOrder
       value: 8
