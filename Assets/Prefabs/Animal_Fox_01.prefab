@@ -946,6 +946,7 @@ GameObject:
   - component: {fileID: 7230278740476289970}
   - component: {fileID: 7230278740485537664}
   - component: {fileID: 7230278738738581600}
+  - component: {fileID: -8687390790455085700}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Animal
@@ -1013,6 +1014,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &-8687390790455085700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7230278740476079592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec92d0e6330618439eeeda2308b796d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7230278740476080776
 GameObject:
   m_ObjectHideFlags: 0
