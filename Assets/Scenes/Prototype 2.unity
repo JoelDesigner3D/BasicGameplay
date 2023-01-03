@@ -961,10 +961,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5211478610637082378, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
-      propertyPath: speed
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 5211478611192798675, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1012,10 +1008,6 @@ PrefabInstance:
     - target: {fileID: 5211478611193151987, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
       propertyPath: m_Name
       value: Food_Pizza_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 5211478611193151987, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78daf03c548bc9d42aebb5bf6911495b, type: 3}
