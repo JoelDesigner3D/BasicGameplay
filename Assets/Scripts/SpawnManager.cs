@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SpownManager : MonoBehaviour
+public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
 
