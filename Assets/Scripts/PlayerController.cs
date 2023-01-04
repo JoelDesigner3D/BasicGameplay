@@ -12,12 +12,10 @@ public class PlayerController : MonoBehaviour
     public float xRange = 10f;
 
     private float movementX;
-    //private float movementY;
 
     public Rigidbody body;
 
     public GameObject projectilePrefab;
-
     public GameObject steak;
     public GameObject cookie;
 
@@ -56,18 +54,14 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputValue movementValue)
     {
-
         Vector2 movementVector = movementValue.Get<Vector2>();
         movementX = movementVector.x;
-        //movementY = movementVector.y;
 
         Debug.Log("movementX : " + movementVector.x);
 
         body.velocity = new Vector3(movementX * speed, body.velocity.y, body.velocity.z);
-
-        // transform.Translate(Vector3.right * movementVector.x * speed * Time.deltaTime);  
-
     }
+
 
     public void OnFire() // Space key
     {
@@ -78,6 +72,7 @@ public class PlayerController : MonoBehaviour
         Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
     }
 
+
     public void OnFireSteak() // ctrl key
     {
         // launch a projectile from the player
@@ -86,6 +81,7 @@ public class PlayerController : MonoBehaviour
         // Create a new projectile and add it to the scene
         Instantiate(steak, transform.position, steak.transform.rotation);
     }
+
 
     public void OnFireCookie() // shift key
     {
