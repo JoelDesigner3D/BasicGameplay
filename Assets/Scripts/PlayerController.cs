@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
-    
+    public GameObject steak;
+    public GameObject cookie;
 
 
     // Start is called before the first frame update
@@ -75,5 +76,23 @@ public class PlayerController : MonoBehaviour
 
         // Create a new projectile and add it to the scene
         Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+    }
+
+    public void OnFireSteak() // ctrl key
+    {
+        // launch a projectile from the player
+        Debug.Log("launch steak");
+
+        // Create a new projectile and add it to the scene
+        Instantiate(steak, transform.position, steak.transform.rotation);
+    }
+
+    public void OnFireCookie() // shift key
+    {
+        // launch a projectile from the player
+        Debug.Log("launch cookie");
+
+        // Create a new projectile and add it to the scene
+        Instantiate(cookie, transform.position, cookie.transform.rotation);
     }
 }
